@@ -2823,7 +2823,7 @@ var baseColors = {
     warning: "#FFB237",
 };
 var brandColors = {
-    binance: "#b0ffb4",
+    binance: "#40916c",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#fbfff7", backgroundDisabled: "#dde6da", contrast: "#d8f3dc", invertedContrast: "#f1faee", input: "#80ed99", tertiary: "#EFF4F5", text: "#04210a", textDisabled: "#a4a9ab", textSubtle: "#1b4332", borderColor: "#57cc99", card: "#d8f3dc", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
