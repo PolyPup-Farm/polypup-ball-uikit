@@ -2401,7 +2401,7 @@ var Panel = function (props) {
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement("a", { href: "https://paladinsec.co/projects/polypup-layer-3/", target: "_blank", rel: "noreferrer" },
-            React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200" })),
+            React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "100%" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$7;

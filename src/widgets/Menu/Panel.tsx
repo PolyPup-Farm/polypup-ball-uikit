@@ -39,7 +39,7 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-        <a href="https://paladinsec.co/projects/polypup-layer-3/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200"/></a>
+        <a href="https://paladinsec.co/projects/polypup-layer-3/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="100%"/></a>
       <PanelFooter {...props} />
     </StyledPanel>
   );
