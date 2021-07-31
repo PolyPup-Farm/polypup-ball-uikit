@@ -49,7 +49,7 @@ const Panel: React.FC<Props> = (props) => {
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
         <StyledImage>
-          <a href="https://rugdoc.io/project/polypup-ball/" target="_blank" rel="noreferrer"><img src="https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png" width="200px"/></a>
+          <a href="https://rugdoc.io/project/polypup-ball/" target="_blank" rel="noreferrer"><img src="https://ball.polypup.finance/images/rugdoc-kycd.png" width="200px"/></a>
           <a href="https://paladinsec.co/projects/polypup-layer-3/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200px"/></a>
         </StyledImage>
       <PanelFooter {...props} />
