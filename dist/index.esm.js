@@ -2400,8 +2400,8 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement("a", { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/5792/" },
-            React.createElement("img", { src: "https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" })),
+        React.createElement("a", { href: "https://paladinsec.co/projects/polypup-layer-3/", target: "_blank", rel: "noreferrer" },
+            React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$7;
