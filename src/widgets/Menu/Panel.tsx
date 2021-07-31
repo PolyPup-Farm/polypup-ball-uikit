@@ -15,6 +15,7 @@ const StyledImage = styled.div`
   margin-left: auto;
   margin-right: auto;
   display:block;
+  margin-bottom: 5px;
   }
 `
 
