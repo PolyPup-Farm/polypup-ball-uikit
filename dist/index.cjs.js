@@ -2387,7 +2387,7 @@ var PanelFooter = function (_a) {
 };
 var templateObject_1$8, templateObject_2$4, templateObject_3$1, templateObject_4$1;
 
-var StyledImage = styled__default['default'].div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  img {\n  margin-left: auto;\n  margin-right: auto;\n  display:block;\n  }\n"], ["\n  img {\n  margin-left: auto;\n  margin-right: auto;\n  display:block;\n  }\n"])));
+var StyledImage = styled__default['default'].div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  img {\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 10px;\n  display:block;\n  }\n"], ["\n  img {\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 10px;\n  display:block;\n  }\n"])));
 var StyledPanel = styled__default['default'].div(templateObject_2$3 || (templateObject_2$3 = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? "80px" : 0);
@@ -2415,6 +2415,8 @@ var Panel = function (props) {
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
         React__default['default'].createElement(StyledImage, null,
+            React__default['default'].createElement("a", { href: "https://rugdoc.io/project/polypup-ball/", target: "_blank", rel: "noreferrer" },
+                React__default['default'].createElement("img", { src: "https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png", width: "200px" })),
             React__default['default'].createElement("a", { href: "https://paladinsec.co/projects/polypup-layer-3/", target: "_blank", rel: "noreferrer" },
                 React__default['default'].createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200px" }))),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));

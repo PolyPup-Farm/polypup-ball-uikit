@@ -14,6 +14,7 @@ const StyledImage = styled.div`
   img {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   display:block;
   }
 `
@@ -48,6 +49,7 @@ const Panel: React.FC<Props> = (props) => {
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
         <StyledImage>
+          <a href="https://rugdoc.io/project/polypup-ball/" target="_blank" rel="noreferrer"><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" width="200px"/></a>
           <a href="https://paladinsec.co/projects/polypup-layer-3/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200px"/></a>
         </StyledImage>
       <PanelFooter {...props} />
