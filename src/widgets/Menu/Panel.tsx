@@ -10,6 +10,14 @@ interface Props extends PanelProps, PushedProps {
   isMobile: boolean;
 }
 
+const StyledImage = styled.div`
+  img {
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  }
+`
+
 const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   position: fixed;
   padding-top: ${({ showMenu }) => (showMenu ? "80px" : 0)};
@@ -39,7 +47,9 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-        <a href="https://paladinsec.co/projects/polypup-layer-3/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="100%"/></a>
+        <StyledImage>
+          <a href="https://paladinsec.co/projects/polypup-layer-3/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200px"/></a>
+        </StyledImage>
       <PanelFooter {...props} />
     </StyledPanel>
   );
