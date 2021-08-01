@@ -124,6 +124,7 @@ const Menu: React.FC<NavProps> = ({
           <a href="https://rugdoc.io/project/polypup-ball/" target="_blank" rel="noreferrer"><img src="https://ball.polypup.finance/images/rugdoc-kycd.png" width="200px"/></a>
         </Flex>
         <Flex>
+        <a href="https://rugdoc.io/project/polypup-ball/" target="_blank" rel="noreferrer"><img src="https://ball.polypup.finance/images/rugdoc-kycd.png" width="200px"/></a>
           <UserBlock account={account} login={login} logout={logout} />
           {profile && <Avatar profile={profile} />}
         </Flex>
